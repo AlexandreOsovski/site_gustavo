@@ -8702,7 +8702,6 @@ a.text-dark:hover {
     margin-top: 90px;
 }
 .gym-class .gym-class-box {
-    min-height: 450px;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 @media (min-width: 992px) {
@@ -8711,6 +8710,7 @@ a.text-dark:hover {
         z-index: 1;
     }
 }
+
 .gym-class i {
     position: absolute;
     font-size: 200px;
