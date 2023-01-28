@@ -8709,6 +8709,14 @@ a.text-dark:hover {
         margin-top: -90px;
         z-index: 1;
     }
+    .imagem_treino{
+        width: 30vw;
+    }
+}
+@media (max-width: 992px) {
+    .imagem_treino{
+        width: 80vw;
+    }
 }
 
 .gym-class i {
