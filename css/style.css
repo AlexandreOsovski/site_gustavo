@@ -2498,13 +2498,13 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
 .btn-outline-primary {
-    color: #e31c25;
-    border-color: #e31c25;
+    color: #2596be;
+    border-color: #2596be;
 }
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #e31c25;
-    border-color: #e31c25;
+    background-color: #000;
+    border-color: #000;
 }
 .btn-outline-primary.focus,
 .btn-outline-primary:focus {
@@ -5546,7 +5546,7 @@ a.close.disabled {
     vertical-align: text-top !important;
 }
 .bg-primary {
-    background-color: #e31c25 !important;
+    background-color: #2596be !important;
 }
 a.bg-primary:focus,
 a.bg-primary:hover,
@@ -8459,7 +8459,7 @@ button.bg-dark:hover {
     color: #fff !important;
 }
 .text-primary {
-    color: #e31c25 !important;
+    color: #2596be !important;
 }
 a.text-primary:focus,
 a.text-primary:hover {
@@ -8686,7 +8686,7 @@ a.text-dark:hover {
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #e31c25;
+    color: #2596be;
 }
 .carousel-caption {
     top: 0;
@@ -8826,7 +8826,7 @@ a.text-dark:hover {
 .footer,
 .page-header,
 .subscribe {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/carousel-1.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/imagem_inicial_do_site.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
