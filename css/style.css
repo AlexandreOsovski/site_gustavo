@@ -2680,6 +2680,7 @@ fieldset:disabled a.btn {
 .btn-outline-light {
     color: #fff;
     border-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .btn-outline-light:hover {
     color: #212529;
@@ -8702,6 +8703,7 @@ a.text-dark:hover {
 }
 .gym-class .gym-class-box {
     min-height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 @media (min-width: 992px) {
     .gym-class {
