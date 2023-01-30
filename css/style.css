@@ -8712,6 +8712,7 @@ a.text-dark:hover {
     .gym-class {
         margin-top: -90px;
         z-index: 1;
+        margin-bottom: 100px;
     }
     .imagem_treino{
         width: 30vw;
@@ -8722,6 +8723,7 @@ a.text-dark:hover {
         width: 80vw;
     }
 }
+
 
 .gym-class i {
     position: absolute;
@@ -8873,7 +8875,8 @@ border-radius: 4px;
 
 .imagem_treino{
     border-radius: 16px;
-    margin-top: 20px; 
-    margin-bottom: 16px; 
-    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 30%) 0px 15px 12px;
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+    border: 2px solid #000;
+    box-shadow: rgb(0 0 0 / 30%) 0px 7px 32px 10px, rgb(0 0 0 / 30%) 0px 6px 20px 4px;
 }
