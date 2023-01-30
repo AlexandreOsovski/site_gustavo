@@ -2498,34 +2498,37 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
 .btn-outline-primary {
-    color: #2596be;
-    border-color: #2596be;
+    color: #fff;
+    border-color: #071332;
+    background-color: #071332;
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 30%) 0px 15px 12px;
 }
 .btn-outline-primary:hover {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
+    color: #071332;
+    background-color: #fff;
+    border-color: #071332;
 }
 .btn-outline-primary.focus,
 .btn-outline-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(227, 28, 37, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 1);
 }
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: #e31c25;
+    color: #fff;
     background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #e31c25;
-    border-color: #e31c25;
+    background-color: #071332;
+    border-color: #071332;
 }
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(227, 28, 37, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 1);
 }
 .btn-outline-secondary {
     color: #111;
@@ -8678,26 +8681,7 @@ a.text-dark:hover {
         background: #111;
     }
 }
-.element::-webkit-scrollbar {
-    height: 0px !important;
-    background-color: #2596be !important;
-    border-radius: 4px;
-    width: 3px;
-  }
-  
-  .element:hover::-webkit-scrollbar {
-    height: 8px !important;
-  }
-  
-  .element::-webkit-scrollbar-track {
-    background: transparent !important; 
-  }
-  
-  .element::-webkit-scrollbar-thumb {
-    background-color: #2596be !important;
-    border-radius: 4px;
-  }
-  
+
 .navbar-dark .navbar-nav .nav-link {
     padding-left: 15px;
     padding-right: 15px;
@@ -8865,4 +8849,31 @@ a.text-dark:hover {
 
 .navbar-sobre{
     background: transparent;
+}
+
+.element::-webkit-scrollbar {
+height: 0px !important;
+background-color: #2596be !important;
+border-radius: 4px;
+width: 3px;
+}
+
+.element:hover::-webkit-scrollbar {
+height: 8px !important;
+}
+
+.element::-webkit-scrollbar-track {
+background: transparent !important; 
+}
+
+.element::-webkit-scrollbar-thumb {
+background-color: #2596be !important;
+border-radius: 4px;
+}
+
+.imagem_treino{
+    border-radius: 16px;
+    margin-top: 20px; 
+    margin-bottom: 16px; 
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 30%) 0px 15px 12px;
 }
