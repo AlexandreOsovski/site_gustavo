@@ -8678,6 +8678,26 @@ a.text-dark:hover {
         background: #111;
     }
 }
+.element::-webkit-scrollbar {
+    height: 0px !important;
+    background-color: #2596be !important;
+    border-radius: 4px;
+    width: 3px;
+  }
+  
+  .element:hover::-webkit-scrollbar {
+    height: 8px !important;
+  }
+  
+  .element::-webkit-scrollbar-track {
+    background: transparent !important; 
+  }
+  
+  .element::-webkit-scrollbar-thumb {
+    background-color: #2596be !important;
+    border-radius: 4px;
+  }
+  
 .navbar-dark .navbar-nav .nav-link {
     padding-left: 15px;
     padding-right: 15px;
